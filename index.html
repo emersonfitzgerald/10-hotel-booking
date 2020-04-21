@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Finder</title>
+</head>
+<body>
+<header>
+    <h1 id="websiteName"></h1>
+    <h2 id="slogan"></h2>
+</header>
+<main>
+   
+    <h2>What I learned</h2>
+    <ul class='objectives'>
+        <li> Create an external JSON file</li>
+        <li>Load the JSON file using the Fetch API </li>
+        <li>Ho to use a try...catch block</li>
+        <li>How to use an async...await to make asyncronous function calls</li>
+        <li>How to retrieve and store resolved Promise data</li>
+        <li>Display data from the JSON file on the web page using three different buttons</li>
+    </ul>
+
+    <h2>Select a Hotel</h2>
+    <ul class = 'hotels'>
+        <li><a href='#' id="mariott">Marriott Hotel Rooms</a></li>
+        <li><a href='#'id="sheraton">Sheraton Hotel Rooms</a></li>
+        <li><a href='#'id="hilton">Hilton Hotel Rooms</a></li>
+       
+    </ul>
+
+    <h2 id='hotelName'></h2>
+    <h3> <span id='address'></span></h3>
+
+    <div id='info'>
+    <p>Number of Rooms: <span id = 'rooms'></span></p>
+    <p>Gym Available: <span id = 'gym'></span></p>
+    <p>Room Types: <span id = 'type'></span></p>
+</div>
+
+    <img id = 'picture'>
+  
+</main>
+<footer>
+    <p>Assignment for DGM 2760 by Emerson Fitzgerald</p>
+</footer>
+</body>
+<script src="main.js"></script>
+
+</html>

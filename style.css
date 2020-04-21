@@ -1,0 +1,98 @@
+body h1, h2, ul, li {margin:0;}
+body {
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+#box h2 {
+    padding: 0;
+}
+#box h1{
+    padding: 0;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header {
+    background-image: url("https://image.freepik.com/free-photo/abstract-pool-water-surface-background-with-sun-light-reflection_74190-8510.jpg");
+    height: 300px;
+}
+
+header h1 {
+    color: #fff;
+    padding: 1rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 3rem;
+}
+
+header h2 {
+    color: #fff;
+    padding: 0.5rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 2rem;
+}
+
+main h1 {
+    color: royalblue;
+    padding: 1rem 0 0 2%;
+}
+
+main h2 {
+    color: peru;
+    padding: .6rem 0 0 2%;
+}
+
+main p {padding: 0.2rem 0 0 2%;}
+
+main ul{margin: 0;}
+
+main ul.objectives li {
+margin-left: 3%;
+}
+
+main button {
+    display: block;
+    background-color: grey;
+    border: solid 1px silver;
+    border-radius: 10px;
+    padding: .5em;
+    margin: .5em 0;
+    width: 50%;
+}
+
+main article {
+    float: left;
+    width: 60%;
+}
+
+/* main aside {
+    float: left;
+    width: 40%;
+} */
+
+textarea {
+    text-align: inherit;
+}
+
+main div#displayResults {
+    background-color: white;
+    margin-left: 2%;
+    padding: .2em 4%;
+    line-height: 150%;
+}
+
+/* main div#displayResults span {color:red;}
+main div#error {color: orange; margin-left: 2%; background-color: yellow;} */
+
+footer {
+    background-color: darkslateblue;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "name": "Mariott",
+            "rooms": "50",
+            "gym": "No",
+            "roomType": [
+                "King",
+                " Queen",
+                " Double"
+            ],
+            "address": "96 State St",
+            "picture": "picture/room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "90",
+            "gym": "Yes",
+            "roomType": [
+                "Deluxe",
+                " King"
+            ],
+            "address": "23 W Portland St",
+            "picture": "picture/room2.jpg"
+        },
+        {"name": "Hilton", 
+            "rooms": "25" ,
+            "gym": "Yes" ,
+            "roomType": ["King", " Queen", " Double"],
+            "address": "1999 S Chicago St" ,
+            "picture": "picture/room3.jpg"
+        }
+    ]
+}
