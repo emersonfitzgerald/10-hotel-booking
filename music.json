@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "alternative",
+            "rooms": "Your Graduation",
+            "gym": "Modern Baseball",
+            "roomType": "You're Gonna Miss It All",
+            "address": "Alternative",
+            "picture": "picture/room1.mp4"
+        },
+        {
+            "name": "rap",
+            "rooms": "YOSEMITE",
+            "gym": "Travis Scott",
+            "roomType": "ASTROWORLD",
+            "address": "Rap",
+            "picture": "picture/room2.mp4"
+        },
+        {
+            "name": "rnb", 
+            "rooms": "The Weekend" ,
+            "gym": "SZA" ,
+            "roomType": " Ctrl",
+            "address": "R&B" ,
+            "picture": "picture/room3.mp4"
+        }
+    ]
+}
